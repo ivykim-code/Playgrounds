@@ -1,11 +1,9 @@
-//I did not finish
 for i in 1 ... 13 {
-    if !isBlocked {
-        moveForward()
-    }else{
+    if isBlocked {
         turnLeft()
-    }else if isOneClosedSwitch{
+    }
+    moveForward()
+    if isOnClosedSwitch{
         toggleSwitch()
     }
-    
 }
