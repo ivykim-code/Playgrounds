@@ -1,1 +1,4 @@
 //
+while isOnGem{
+  toggleSwitch()
+  moveForward()
